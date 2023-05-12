@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
 :root{
     --principalColor: #FDE3BA;
     --secondeColor: #EFA235;
     --thirdColor: #764C21;
+    font-family: 'Special Elite', sans-serif;
 }
 
 /*Menu de navegação*/
@@ -34,6 +37,7 @@
     padding: 10px;
     color: var(--thirdColor);
     text-decoration: none;
+    border-radius: 5px;
 }
 
 main img {
@@ -47,7 +51,7 @@ body {
     text-align: center;
 }
 
-main > h1, p, h2 {
+main > h1, p {
     color: var(--thirdColor);
 }
 
@@ -59,7 +63,42 @@ main > p {
     font-size: 30px;
 }
 
-main>h2 {
+.catalogBox h2 {
+    color: var(--thirdColor);
     font-size: 45px;
     background-color: var(--secondeColor);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.catalogBox div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/*imagens do catálogo*/
+.catalogBox img {
+    height: 350px;
+    width: auto;
+    padding: 30px;
+    background-color: var(--secondeColor);
+    border-radius: 5px;
+}
+
+.catalogBox figcaption {
+    color: var(--thirdColor);
+    font-size: 22px;
+}
+
+/*Rodapé*/
+footer {
+    background-color: var(--secondeColor);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+footer > p {
+    color: var(--principalColor);
+    font-size: 25px;
 }
