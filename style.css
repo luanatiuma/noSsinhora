@@ -21,8 +21,8 @@
 .logo>img {
     position: absolute;
     top: 3em;
-    left: 50em;
-    height: 25em;
+    left: 40%;
+    height: 38%;
     width: auto;
     border-radius: 50%;
     object-fit: cover;
