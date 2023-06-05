@@ -7,6 +7,39 @@
     font-family: 'Special Elite', sans-serif;
 }
 
+/*Responsividade*/
+@media screen (max-width: 400px){
+    body {
+        padding: 0px;
+        margin: 0px;
+    }
+    .navBar > ul {
+        justify-content: space-around;
+        font-size: 13px;
+    }
+    .bannerHeader>img {
+        height: 12em;
+        width: 100%;
+        object-fit: cover;
+    }
+    .logo>img {
+        position: absolute;
+        top: 2.1em;
+        left: 40%;
+        height: 25%;
+    }
+    main > h1 {
+        font-size: 2em;
+    }
+    main > p {
+        font-size: 1.2em;
+    }
+    .catalogBox h2 {
+        font-size: 2em;
+        padding: 0.4em;
+    }
+}
+
 /*Menu de navegação*/
 .bannerHeader>img {
     width: 100%;
